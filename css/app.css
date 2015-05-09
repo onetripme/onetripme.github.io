@@ -1,0 +1,97 @@
+body {
+  background-color: #FEFEFE;
+}
+
+header {
+  text-align: center;
+}
+
+header img {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  margin: 20px;
+}
+
+header a {
+  display:block;
+}
+
+header a:hover img, header a:focus img  {
+  -webkit-transform: rotateZ(-180deg) rotateX(180deg);
+}
+
+.ss-q-item-label div {
+  font-size: 1.3em;
+  display: block;
+  font-weight: bold;
+  padding: 20px 0;
+}
+
+.ss-q-item-label {
+  text-align: center;
+  padding: 15px 20px;
+  color: #999;
+  display:block;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.survey {
+  min-height: 905px;
+}
+
+.ss-q-item-label:hover {
+  color: #555;
+}
+
+.focused {
+  padding: 30px 20px;
+  color: #333;
+  font-size: 1.1em;
+}
+
+.ss-q-short {
+  background: transparent;
+  border: 0pt transparent;
+  padding: 10px;
+  text-align:center;
+  display: block;
+  width: 100%;
+  -webkit-appearance: none;
+  outline-width: 0;
+  font-family: 'Rancho', cursive;
+  font-size: 1.6em;
+  color: #555;
+}
+
+.ss-secondary-text {
+  font-size: 0.8em;
+}
+
+.ss-q-short:focus {
+  outline-width: 0;
+  color: #559;
+}
+
+.jfk-button {
+  background-color: #3498db;
+  padding: 10px 30px;
+  font-size: 1.3em;
+  cursor: pointer;
+  border: 0 none;
+  color: #f3f3f3;
+  position:relative;
+  top: -50px;
+}
+
+*:focus {
+  outline-width: 0;
+}
+
+.jfk-button:hover, .jfk-button:focus {
+  background-color: #2980b9;
+}
