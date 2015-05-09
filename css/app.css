@@ -7,19 +7,11 @@ header {
 }
 
 header img {
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
   margin: 20px;
 }
 
 header a {
   display:block;
-}
-
-header a:hover img, header a:focus img  {
-  -webkit-transform: rotateZ(-180deg) rotateX(180deg);
 }
 
 .ss-q-item-label div {
@@ -94,4 +86,9 @@ header a:hover img, header a:focus img  {
 
 .jfk-button:hover, .jfk-button:focus {
   background-color: #2980b9;
+}
+
+footer p {
+  font-size: 0.8em;
+  padding-top: 30px;
 }
