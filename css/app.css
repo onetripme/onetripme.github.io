@@ -24,7 +24,7 @@ header a {
 .ss-q-item-label {
   text-align: center;
   padding: 15px 20px;
-  color: #999;
+  color: #555;
   display:block;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -37,7 +37,7 @@ header a {
 }
 
 .ss-q-item-label:hover {
-  color: #555;
+  color: #333;
 }
 
 .focused {
@@ -51,8 +51,9 @@ header a {
   border: 0pt transparent;
   padding: 10px;
   text-align:center;
-  display: block;
-  width: 100%;
+  display: inline-block;
+  width: 70%;
+  border-bottom: 1px dashed #555;
   -webkit-appearance: none;
   outline-width: 0;
   font-family: 'Rancho', cursive;
